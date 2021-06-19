@@ -10,6 +10,7 @@ module.exports = {
       2: "2 2 0%",
     },
     extend: {
+      borderStyle: ['hover'],
       backgroundImage: (theme) => ({
         freelancer:
           "url('https://www.upwork.com/static/assets/Brontes/6a4c747/img/find-talent.bf9ad20.jpg')",

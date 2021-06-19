@@ -1117,9 +1117,9 @@ function App() {
       <section className="container p-20 text-left">
         <SliderSection />
       </section>
-      <section className="container flex rounded-xl mt-10 bg-blue-700">
+      <section className="container overflow-hidden flex rounded-xl mt-10 bg-blue-700">
         <div className="flex-1 bg-find_work bg-center"></div>
-        <div className="flex-1 p-6 overflow-hidden text-white rounded-xl text-left font-semibold">
+        <div className="flex-1 p-6 text-white rounded-xl text-left font-semibold">
           <div className="text-2xl mb-6">For talent</div>
           <h1 className="text-7xl font-semibold mb-12">
             Find great <br /> work
@@ -1139,7 +1139,7 @@ function App() {
               Explore different ways to earn
             </span>
           </div>
-          <button className="mt-8 py-2 hover:bg-gray-100 text-blue-700 font-semibold bg-white rounded-3xl px-6">
+          <button className="mt-8 py-2 focus:outline-none hover:bg-gray-100 text-blue-700 font-semibold bg-white rounded-3xl px-6">
             Find Opportunities
           </button>
         </div>
@@ -1197,8 +1197,8 @@ function App() {
           </div>
         </div>
       </section>
-      <section className="container flex rounded-xl mt-10 bg-secondary">
-        <div className="flex-1 p-10 overflow-hidden text-white rounded-xl text-left font-semibold">
+      <section className="container overflow-hidden flex rounded-xl mt-10 bg-secondary">
+        <div className="flex-1 p-10 text-white rounded-xl text-left font-semibold">
           <h1 className="text-6xl w-4/5">We’re the world’s work marketplace</h1>
           <div className="flex mt-48">
             <div className="py-3 w-full border-t">
@@ -1248,7 +1248,7 @@ function App() {
           <div className="flex mb-10">
             <div className="flex-1">
               <h1 className="font-semibold mb-4">For Clients</h1>
-              <ul>
+              <ul className="footer-links">
                 <li className="mb-2">
                   <a href="#">How to Hire</a>
                 </li>
@@ -1279,7 +1279,7 @@ function App() {
               </ul>
             </div>
             <div className="flex-1">
-              <ul>
+              <ul className="footer-links">
                 <h1 className="font-semibold mb-4">For Talent</h1>
                 <li className="mb-2">
                   <a href="#">How to Find Work</a>
@@ -1297,7 +1297,7 @@ function App() {
             </div>
             <div className="flex-1">
               <h1 className="font-semibold mb-4">Resources</h1>
-              <ul>
+              <ul className="footer-links">
                 <li className="mb-2">
                   <a href="#">Help & Support</a>
                 </li>
@@ -1317,7 +1317,7 @@ function App() {
             </div>
             <div className="flex-1">
               <h1 className="font-semibold mb-4">Company</h1>
-              <ul>
+              <ul className="footer-links">
                 <li className="mb-2">
                   <a href="#">About Us</a>
                 </li>
@@ -1520,7 +1520,7 @@ function App() {
             <div className="mr-7 mt-4 pr-7 border-r border-footer">
               © 2015 - 2021 Upwork® Global Inc.
             </div>
-            <ul className="flex mt-4">
+            <ul className="flex mt-4 footer-links">
               <li className="mr-7">
                 <a href="#">Terms of Service</a>
               </li>
