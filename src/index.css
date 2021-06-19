@@ -11,6 +11,9 @@
     height: 100%;
     width: 100%;
   }
+  .top-4-58 {
+    top: 4.58rem;
+  }
 }
 
 @layer components {
@@ -54,9 +57,12 @@
     @apply border-b border-secondary;
   }
   .big-button {
-    @apply block rounded-xl bg-secondary w-1/3 p-4 hover:text-secondary hover:bg-white
+    @apply block rounded-xl bg-secondary w-1/3 p-4 hover:text-secondary hover:bg-white;
   }
   .big-button:hover svg {
-    @apply fill-secondary
+    @apply fill-secondary;
+  }
+  .tag {
+    @apply py-2 cursor-pointer ml-2 mt-2 hover:bg-gray-100 rounded-3xl px-4 border border-gray-400;
   }
 }
