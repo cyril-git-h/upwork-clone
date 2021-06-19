@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/upwork-clone/static/css/main.0ae2cfd2.chunk.css",
+    "main.js": "/upwork-clone/static/js/main.60b5bc99.chunk.js",
+    "main.js.map": "/upwork-clone/static/js/main.60b5bc99.chunk.js.map",
+    "runtime-main.js": "/upwork-clone/static/js/runtime-main.416b806d.js",
+    "runtime-main.js.map": "/upwork-clone/static/js/runtime-main.416b806d.js.map",
+    "static/js/2.4c021833.chunk.js": "/upwork-clone/static/js/2.4c021833.chunk.js",
+    "static/js/2.4c021833.chunk.js.map": "/upwork-clone/static/js/2.4c021833.chunk.js.map",
+    "static/js/3.03186664.chunk.js": "/upwork-clone/static/js/3.03186664.chunk.js",
+    "static/js/3.03186664.chunk.js.map": "/upwork-clone/static/js/3.03186664.chunk.js.map",
+    "index.html": "/upwork-clone/index.html",
+    "static/css/main.0ae2cfd2.chunk.css.map": "/upwork-clone/static/css/main.0ae2cfd2.chunk.css.map",
+    "static/js/2.4c021833.chunk.js.LICENSE.txt": "/upwork-clone/static/js/2.4c021833.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.416b806d.js",
+    "static/js/2.4c021833.chunk.js",
+    "static/css/main.0ae2cfd2.chunk.css",
+    "static/js/main.60b5bc99.chunk.js"
+  ]
+}
